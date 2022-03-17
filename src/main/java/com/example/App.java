@@ -120,14 +120,5 @@ public class App
                 "__ERROR: No se encontraron Facturas con cantidades iguales a 200");
         else facturaFiltro.forEach(factura -> System.out.println(factura.toString()));
 
-
-        /*
-        // filtraje funcional con streams
-        Factura facturaFiltro=lista.stream()
-                .filter(elemento->elemento.getImporte()>300)
-                .findFirst()
-                .get();
-        System.out.println(facturaFiltro.getImporte());
-        */
     }
 }
